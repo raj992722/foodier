@@ -1,9 +1,9 @@
 import React from 'react'
 import { useLoaderData, useNavigate } from 'react-router-dom'
 import Swal from 'sweetalert2'
-import useAxiosPublic from '../../../hooks/useAxiosPublic';
+import useAxiosPublic from '../../../hooks/useAxiosPublic.jsx';
 import { useForm } from 'react-hook-form';
-import useAxiosSecure from '../../../hooks/useAxiosSecure';
+import useAxiosSecure from '../../../hooks/useAxiosSecure.jsx';
 import { FaUtensils } from 'react-icons/fa';
 
 const UpdateMenu = () => {

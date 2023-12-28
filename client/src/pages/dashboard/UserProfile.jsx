@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AuthContext } from '../../contexts/Authprovider'
+import { AuthContext } from '../../contexts/Authprovider.jsx'
 import { useForm } from 'react-hook-form';
 
 const UserProfile = () => {

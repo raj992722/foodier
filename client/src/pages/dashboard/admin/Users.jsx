@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { FaTrashAlt, FaUser, FaUsers } from "react-icons/fa";
-import useAxiosSecure from "../../../hooks/useAxiosSecure";
+import useAxiosSecure from "../../../hooks/useAxiosSecure.jsx";
 
 const Users = () => {
   const axiosSecure = useAxiosSecure();

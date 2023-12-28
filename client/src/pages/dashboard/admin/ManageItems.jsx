@@ -3,7 +3,7 @@ import useMenu from "../../../hooks/useMenu";
 import { Link } from "react-router-dom";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
-import useAxiosSecure from "../../../hooks/useAxIosSecure.jsx";
+import useAxiosSecure from "../../../hooks/useAxiosSecure.jsx";
 
 const ManageItems = () => {
   const [menu, , refetch] = useMenu();
